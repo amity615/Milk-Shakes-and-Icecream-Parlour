@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Milk Shakes And Ice Cream Parlour</title>
+    <link href="Style.css" rel="stylesheet" /> 
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="text-white page-header-container">
+        <h1 class="page-header">Milk Shakes And Ice Cream Parlour</h1>
+      </div>
+      <div class="main-content">
+        <div id="intro-img"></div>
+        <!-- Milk Shake Menu -->
+        <section class="section">
+          <h2 class="section-header">Milk shake Menu</h2>
+          <div class="responsive-table">
+            <table>
+              <tr class="tr-header">
+                <th>&nbsp;</th>
+                <th>Small</th>
+                <th>Medium</th>
+                <th>Large</th>
+              </tr>
+              <tr>
+                <td class="text-left">Chocolate</td>
+                <td>₹50</td>
+                <td>₹100</td>
+                <td>₹150</td>
+              </tr>
+              <tr>
+                <td class="text-left">Vanilla</td>
+                <td>₹50</td>
+                <td>₹100</td>
+                <td>₹150</td></tr>
+              <tr>
+                <td class="text-left">Strawberry</td>
+                <td>₹50</td>
+                <td>₹100</td>
+                <td>₹150</td></tr>
+              <tr>
+                <td class="text-left">Black Current</td>
+                <td>₹50</td>
+                <td>₹100</td>
+                <td>₹150</td>
+              </tr>
+              <tr>
+                <td class="text-left">Mango</td>
+                <td>₹50</td>
+                <td>₹100</td>
+                <td>₹150</td>
+              </tr>
+              <tr>
+                <td class="text-left">Kesar Pista</td>
+                <td>₹50</td>
+                <td>₹100</td>
+                <td>₹150</td>
+              </tr>
+              <tr>
+                <td class="text-left">Butterscoth</td>
+                <td>₹50</td>
+                <td>₹100</td>
+                <td>₹150</td>
+              </tr>
+            </table>
+          </div>
+        </section>
+
+        <!--  Ice Cream Menu -->
+        <section class="section">
+          <h2 class="section-header">Ice Cream Menu</h2>
+          <div class="responsive-table">
+            <table>
+              <tr class="tr-header">
+                <th>&nbsp;</th>
+                <th>Single Scoop</th>
+                <th>Double Scoop</th>
+                <th>Single Scoop Cone</th>
+                <th>Double Scoop Cone</th>
+              </tr>
+              <tr>
+                <td class="text-left">Tuty Fruity</td>
+                <td>₹35</td>
+                <td>₹55</td>
+                <td>₹40</td>
+                <td>₹60</td></tr>
+              <tr>
+                <td class="text-left">Orange</td>
+                <td>₹35</td>
+                <td>₹55</td>
+                <td>₹40</td>
+                <td>₹60</td></tr>
+              <tr>
+                <td class="text-left">Litchi</td>
+                <td>₹35</td>
+                <td>₹55</td>
+                <td>₹40</td>
+                <td>₹60</td></tr>
+              <tr>
+                <td class="text-left">Rose</td>
+                <td>₹35</td>
+                <td>₹55</td>
+                <td>₹40</td>
+                <td>₹60</td>
+              </tr>
+              <tr>
+                <td class="text-left">Banana</td>
+                <td>₹35</td>
+                <td>₹55</td>
+                <td>₹40</td>
+                <td>₹60</td>
+              </tr>
+              <tr>
+                <td class="text-left">Vanilla n Chocochips</td>
+                <td>₹35</td>
+                <td>₹55</td>
+                <td>₹40</td>
+                <td>₹60</td>
+              </tr>
+            </table>
+          </div>
+        </section>
+
+        <!-- Special Items -->
+        <section class="section">
+          <h2 class="section-header">Special Items</h2>
+          <div class="special-items">
+            <figure class="special-item">
+              <img src="brownie.jpg" alt="Image" class="tm-special-item-img" width="150px" height="150px"/>
+              <figcaption>
+                <span class="item-name">Brownies</span>
+                <span class="item-price">Rs60</span>
+              </figcaption>
+            </figure>
+            <figure class="special-item">
+              <img src="ice-cream-sand.jpeg" alt="Image" class="tm-special-item-img" width="150px" height="150px"/>
+              <figcaption>
+                <span class="item-name">Sandwich</span>
+                <span class="item-price">Rs45</span>
+              </figcaption>
+            </figure>
+            <figure class="special-item">
+              <img src="oreo-shake.jpg" alt="Image" class="tm-special-item-img"width="150px" height="150px" />
+              <figcaption>
+                <span class="item-name">Oreo Shake</span>
+                <span class="item-price">₹70</span>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+        <hr />
+        <!-- About our cafe -->
+        <section class="section section-small">
+          <h2 class="section-header">About our parlour</h2>
+          <p>
+          Hello dear customers , we at milk shakes and ice cream parlour strive to serve you with 
+          fresh and delicious products which have been prepared with proper safety measures and health 
+          standards . Keep things fun and interesting with this quick and easy Banana M&M Crunch Smoothie. Featuring a combination of bananas and Yoplait Greek Yogurt, all you need to do is just add a little ice and Mini M&M’s and you have yourself a fun yet healthy treat your kids will love!
+          </p>
+          <p class="mb-0">
+            Each restaurant is designed with a consistent overall look and feel, incorporating unique elements to compliment individual store locations. Muted wood tones and gleaming stainless steel are offset by the attention-grabbing colours of the Booster Juice logo.
+          </p>
+        </section>
+        <hr />
+        <!-- Talk to us -->
+        <section class="section section-small">
+          <h2 class="section-header">Talk to us</h2>
+          <p class="mb-0">
+            Reach us via
+            <a href="mailto:tcrinnovation@gmail.com" class="contact-link">Email</a>
+                 Thank you.
+          </p>
+
+        </section>
+      </div>
+      <footer>
+        <p class="text-white tm-footer-text">
+          Copyright &copy; 2021 Yogesh Yadav & Amit Yadav
+          . Design:
+          <a href="#" class="footer-link">Yogesh Yadav & Amit Yadav</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
